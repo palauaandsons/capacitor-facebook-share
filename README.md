@@ -13,24 +13,26 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`sharePhotoToFeed(...)`](#sharephototofeed)
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
+### sharePhotoToFeed(...)
 
 ```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
+sharePhotoToFeed(options: { base64Image: string; }) => Promise<{ status: string; }>
 ```
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
+Share a photo to Facebook Feed.
 
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+| Param         | Type                                  | Description                                     |
+| ------------- | ------------------------------------- | ----------------------------------------------- |
+| **`options`** | <code>{ base64Image: string; }</code> | Object containing the photo as a base64 string. |
+
+**Returns:** <code>Promise&lt;{ status: string; }&gt;</code>
 
 --------------------
 
