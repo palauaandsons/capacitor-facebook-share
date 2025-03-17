@@ -1,6 +1,6 @@
 {
   "name": "capacitor-facebook-share",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Facebook Share plugin for Capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
